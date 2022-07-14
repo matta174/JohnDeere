@@ -39,7 +39,7 @@ class MainTest {
     }
 
     @Test
-    public void testGetFileFromUrl() throws IOException {
+    public void testFilterString() throws IOException {
         String[] testString = Main.filterString();
         assertEquals(215864,testString.length);
     }
